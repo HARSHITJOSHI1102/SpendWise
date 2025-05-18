@@ -17,7 +17,7 @@ connectDB()
 
 app.use(
   cors({
-    origin: "https://spend-wise-six.vercel.app",
+    origin: "https://expense-trackers-5kde.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
